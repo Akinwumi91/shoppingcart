@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+}
+.navbarform .btn{
+  position: relative;
+  right: 54px;
+}
+.collapse .navicons span{
+  padding: 0 10px;
+  cursor: pointer;
+}
+.collapse .navicons span Link{
+  color: black;
+}
+.navbar .container-fluid .brand{
+  font-weight: bold;
+}
+.navbar .container-fluid .nav-link{
+  font-weight: bold;
+}
+.navbar .container-fluid .navicons span .icon{
+color: black;
+}
+/* -----------------------end of nav----------------------- */
+.home{
+  margin: 10px 20px;
+}
+
+.home .top{
+  height: 50vh;
+  width: 100%;
+}
+.home .top .top-links ul{
+  font-weight: 600;
+}
+.home .top .nav-link:hover{
+  text-decoration: underline;
+  transition: all 0.5s ease;
+}
+.home .top > div{
+  margin: 10px 20px;
+}
+.home .carousel-inner{
+  width: 100%;
+  height: 100%;
+}
+.home .carousel-inner img{
+ height: 300px;
+}
+
+.home .top .pictures{
+ width: 100%;
+}
+/* -----------------------end of fist layer----------------------- */
+.home .bestselling{
+  margin: 10px 20px;
+}
+.home .tag{
+  color: red;
+}
+.bestselling .card{
+  width: 250px;
+  cursor: pointer;
+  height: 400px;
+}
+/* -----------------------end of second layer----------------------- */
+.home .section3{
+  margin: 10px 20px;
+}
+.home .section3 .category .categorylink{
+  border: none;
+  padding: 20px;
+  margin: 10px;
+  max-width: 120px;
+  text-align: center;
+}
+/* -----------------------end of third layer----------------------- */
+.home .section4{
+  width: 100%;
+  background-color: blue;
+}
+.home .section4 .speaker{
+  position: relative;
+}
+.home .section4 .speaker .btn{
+position: absolute;
+left: 20px;
+bottom: 50px;
+}
+.home .section4 > div img{
+  max-height: 500px;
+  width: 100%;
+}
+/* -----------------------end of fourth layer----------------------- */
+.section5{
+  width: 100%;
+  margin-top: 20px;
+}
+/* -----------------------end of fifth layer----------------------- */
+
+.home .section6{
+  margin: auto;
+  margin-top: 20px;
+  width: 100%;
+}
+.home .section6 .imgcatalogue{
+  width: 50%;
+  margin: auto;
+  position: relative;
+
+}
+.home .section6 .imgcatalogue img{
+  width: 100%;
+}
+.home .section6 .imgcatalogue p > div{
+  bottom: 20px;
+  position: absolute;
+}
+
+
+
+/* -----------------------end of sixth layer----------------------- */
+.home .section7{
+  margin: 10px 20px;
+}
+.home .section7 > div{
+  text-align: center;
+}
+/* -----------------------end of seventh layer----------------------- */
+.footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.footer .footinner > section {
+margin: 10px 70px;
+}
+.footer .footinner .section5 img{
+  max-width: 200px;
+}
+.footer .copytext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+/* -----------------------end of footer----------------------- */
+.signup{
+  margin: 20px;
+}
+.signup .innersign > div{
+  margin: 10px;
+}
+.signup .innersign form button{
+  margin: 10px 0;
+}
+/* -----------------------end of signup----------------------- */
+.about .story{
+  width: 100%;
+  margin: 20px 0;
+}
+.about .story .storyline{
+  width: 50%;
+}
+.about .story .storypic{
+  width: 50%;
+}
+.about .story .storypic img{
+  max-width: 100%;
+}
+/* -----------------------end of about----------------------- */
+.contact .contactinner{
+  width: 100%;
+  margin: 20px 0;
+
+}
+.contact .contactinner .info{
+  width: 50%;
+  margin-left: 10px;
+}
+.contact .contactinner .textus{
+  width: 50%;
+}
+/* -----------------------end of contact----------------------- */
+.singleproduct{
+  width: 100%;
+}
+.singleproduct .oneproduct{
+  margin: 20px ;
+}
+.singleproduct .oneproductimg{
+  width: 60%;
+}
+.singleproduct .oneproductimg img{
+  height: 70vh;
+}
+.singleproduct .discription{
+  width: 40%;
+  margin: 20px ;
+
+}
+.singleproduct .discription .heart{
+ margin-left: 50px;
+ cursor: pointer;
+}
+/* -----------------------end of singleproduct----------------------- */
+.myprdt{
+  position: relative;
+}
+.myprdt .btn{
+  position: absolute;
+  bottom: 3px;
+  left: 25px;
+}
+
+
+/* -----------------------end of myproductpage----------------------- */
+.cartitems{
+  width: 50%;
+  margin: 5px auto;
+}
+.cartitems input{
+  width: 30px;
+  text-align: center;
+}
+/* -----------------------end of cartproducts----------------------- */
+.allprodt{
+  width: 100%;
+}
+.allprodt .leftrow{
+  width: 20%;
+}
+.allprodt .rightrow{
+  width: 80%;
+}
+.main{
+  position: relative;
+  margin: 10px ;
+}
+.main .btn{
+  position: absolute;
+  bottom: 3px;
+  left: 10px;
+}
