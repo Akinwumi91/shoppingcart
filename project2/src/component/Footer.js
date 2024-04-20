@@ -74,6 +74,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-{/* <p className='copytext text-center'>&copy; copyright Charles 2022. All right reserved</p> */}
-
